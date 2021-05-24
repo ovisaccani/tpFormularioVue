@@ -1,28 +1,51 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container-fluid mt-3">
+    <div class="jumbotron">
+      <h1>Bienvenidos a Vue.js CLI</h1>
+      <br>
+
+      <Navbar />
+      <router-view></router-view>
+
+      <!-- <Binding />
+      <Estructura />
+      <Atributos />
+      <Contadores /> -->
+
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* import Binding from './componentes/Binding.vue'
+import Estructura from './componentes/Estructura.vue'
+import Atributos from './componentes/Atributos.vue'
+import Contadores from './componentes/Contadores.vue' */
+import Navbar from './componentes/Navbar.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    /* Binding,
+    Estructura,
+    Atributos,
+    Contadores, */
+    Navbar
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+  }
+
+  h1 {
+    color: blue;
+  }
+
+  .jumbotron {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
 </style>
