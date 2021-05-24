@@ -20,6 +20,13 @@
               <a class="nav-link" href="#">Formulario Avanzado con mockapi</a>
             </router-link>
           </li>
+          
+          <!-- Opción ruta http-->
+          <li class="nav-item">
+            <router-link to="/http">
+              <a class="nav-link" href="#">HTTP</a>
+            </router-link>
+          </li>
 
         </ul>
       </div>

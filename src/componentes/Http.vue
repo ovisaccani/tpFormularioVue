@@ -52,7 +52,7 @@
       return {
         //url : 'https://jsonplaceholder.typicode.com/posts',
         //url : 'https://jsonplaceholder.typicode.com/users',
-        url : 'https://60ab09cc5a4de40017cc93e5.mockapi.io/usuarios',
+        url : 'https://60ab09cc5a4de40017cc93e5.mockapi.io/users',
         posts : []
       }
     },
